@@ -18,6 +18,13 @@ code {
   margin: 0;
   padding: 0;
 }
+.me-main{
+  position: relative;
+}
+
+.contain{
+  position: relative;
+}
 
 .heading{
   text-align: center;
@@ -27,6 +34,11 @@ code {
   margin-top: 15px;
   background-color:#95e1d3;
   
+}
+.header_div{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .main_container{

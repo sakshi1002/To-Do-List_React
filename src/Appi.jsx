@@ -42,11 +42,11 @@ const Appi = ()=>
 
     return(
     <>
-    <div style={{background: 'linear-gradient(160deg,#fce38a 55%,#fff 0%)'}}>
+    <div style={{background: 'linear-gradient(160deg,#fce38a 55%,#fff 0%)'}} className="me-main">
     <center>
     <h1 className="heading">To Do List in React Js</h1>
     </center>
-    <div>
+    <div className="header_div">
     <h2 style={{float:'left',margin:'30px'}}>{`Today is : ${datetotay}`}</h2>
         <h2 style={{float:'right',margin:'30px'}}>{`Time : ${currtime}`}</h2>
     </div>   
@@ -55,9 +55,9 @@ const Appi = ()=>
     <div className="contain">
         <div className="main_container">
             <center>
-            <input type="text" placeholder="Enter the tasks" style={{padding:'15px',border:'1px white',margin:'20px 10px',fontWeight:'bold',fontSize:'1.2rem'}} onChange={inputtext} value={item}/>
+            <input type="text" placeholder="Enter the tasks" style={{padding:'15px',border:'1px white',borderRadius:'5px',margin:'20px 10px',fontWeight:'bold',fontSize:'1.2rem'}} onChange={inputtext} value={item}/>
             &nbsp;&nbsp;&nbsp;
-            <button style={{padding:'15px',border:'1px white',cursor:'pointer',fontWeight:'bold',fontSize:'1.2rem'}} onClick={onsubmit} className="add">Add</button>
+            <button style={{padding:'15px',border:'1px white',cursor:'pointer',fontWeight:'bold',fontSize:'1.2rem',borderRadius:'5px'}} onClick={onsubmit} className="add">Add</button>
             </center>
             <br/>
             <center>
