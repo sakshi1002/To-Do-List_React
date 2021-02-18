@@ -42,7 +42,7 @@ code {
 }
 
 .main_container{
-  height: 550px;
+  height: fit-content;
   width: 440px;
   border-radius: 10px;
   padding: 5px;
